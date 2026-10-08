@@ -1,0 +1,24 @@
+{
+  "project": "AI Agent Zoho Development",
+  "schema_version": "1.0",
+  "status": "initializing",
+  "active_plan": null,
+  "current_task": null,
+  "last_completed_task": null,
+  "next_task": null,
+  "agents": {
+    "claude": {
+      "role": "architect_planner_reviewer_qa"
+    },
+    "cursor": {
+      "role": "implementation_verification"
+    }
+  },
+  "workflow": {
+    "source_of_truth": "github",
+    "task_protocol": "ai/AGENT-PROTOCOL.md",
+    "task_directory": "tasks/",
+    "result_directory": "results/",
+    "evidence_directory": "evidence/"
+  }
+}
